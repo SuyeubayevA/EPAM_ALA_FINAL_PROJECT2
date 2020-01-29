@@ -6,12 +6,12 @@
     border: 1px dashed #ccc;
 }
 
-div.new-cat {
+.new-cat {
     margin-top: 30px;
     position: relative;
 }
 
-span.ajax-text{
+.ajax-text{
     display: none;
 }
 
@@ -21,4 +21,16 @@ table.sorting.categories td{
 
 .ajaxdivtd{
     position: absolute;
+}
+
+.loader{
+    display: none;
+}
+.ajxmsg {
+    background: green;
+    color: white;
+    padding: 10px;
+    display: none;
+    position: absolute;
+    bottom: 0;
 }
